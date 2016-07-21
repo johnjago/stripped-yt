@@ -1,0 +1,26 @@
+{
+
+  "description": "Focus on what really matters.",
+  "manifest_version": 2,
+  "name": "Stripped YouTube",
+  "version": "1.0",
+  "homepage_url": "https://github.com/johnjago",
+  "icons": {
+    "48": "icon/youtube_ico.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "borderify@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["stripped-yt.js"]
+    }
+  ]
+  
+}
