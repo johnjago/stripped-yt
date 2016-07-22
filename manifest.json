@@ -4,14 +4,14 @@
   "manifest_version": 2,
   "name": "Stripped YouTube",
   "version": "1.0",
-  "homepage_url": "https://github.com/johnjago",
+  "homepage_url": "https://github.com/johnjago/stripped-yt",
   "icons": {
     "48": "icon/youtube_ico.png"
   },
 
   "applications": {
     "gecko": {
-      "id": "borderify@mozilla.org",
+      "id": "stripped-yt@stripped-yt.com",
       "strict_min_version": "45.0"
     }
   },
