@@ -1,11 +1,15 @@
 var comments = document.getElementById("watch-discussion");
-comments.outerHTML = "";
+var parent = document.getElementById("watch7-content");
+parent.removeChild(comments);
 
 var views = document.getElementById("watch7-views-info");
-views.outerHTML = "";
+var parent = document.getElementById("watch8-sentiment-actions");
+parent.removeChild(views);
 
 var ratings = document.getElementById("watch8-sentiment-actions");
-ratings.outerHTML = "";
+var parent = document.getElementById("watch8-action-buttons");
+parent.removeChild(ratings);
 
 var watchSubs = document.querySelector(".exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count");
-watchSubs.outerHTML = "";
+var parent = document.querySelector(".yt-uix-button-subscription-container");
+parent.removeChild(watchSubs);
