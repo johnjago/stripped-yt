@@ -1,6 +1,5 @@
 {
-
-  "description": "Focus on what really matters.",
+  "description": "Focus on videos by removing the unnecessary!",
   "manifest_version": 2,
   "name": "Stripped YouTube",
   "version": "1.1",
@@ -22,5 +21,4 @@
       "js": ["stripped-yt.js"]
     }
   ]
-  
 }
