@@ -1,0 +1,34 @@
+Stripped YouTube
+----------------
+
+A Firefox add-on that hides the following on YouTube watch pages:
+
+  - Comments
+  - View counts
+  - Likes and dislikes
+  - Subscriber counts
+
+Why use this add-on? The first benefit is that you no longer see the comment
+section, which has been scientifically proven to be negative: "Personal insults
+were significantly more prevalent on the YouTube platform".
+
+  http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093609#s3
+
+Another benefit is that videos are no longer a popularity contest, so you can
+watch them for the content, not because they have a high view count.
+
+Download
+--------
+
+  https://addons.mozilla.org/en-US/firefox/addon/stripped-youtube/
+
+Screenshot
+----------
+
+See the file called sample.png in the repository.
+
+
+License
+-------
+
+Public Domain (Unlicense)
