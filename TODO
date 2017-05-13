@@ -1,0 +1,3 @@
+- Remove view counts on all elements, including related videos
+- Fix issue #1: the parts are sometimes not stripped away until
+  after the page is reloaded
