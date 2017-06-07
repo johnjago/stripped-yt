@@ -1,3 +1,4 @@
-- Remove view counts on all elements, including related videos
-- Fix issue #1: the parts are sometimes not stripped away until
-  after the page is reloaded
+* Remove view counts on all elements, including related videos.
+* BUG: The parts are sometimes not stripped away until
+  after the page is reloaded.
+* Begin testing with new YouTube design.
