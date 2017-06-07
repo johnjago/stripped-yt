@@ -3,10 +3,10 @@ Stripped YouTube
 
 A Firefox add-on that hides the following on YouTube watch pages:
 
-  - Comments
-  - View counts
-  - Likes and dislikes
-  - Subscriber counts
+  * Comments
+  * View counts
+  * Likes and dislikes
+  * Subscriber counts
 
 Why use this add-on? The first benefit is that you no longer see the comment
 section, which has been scientifically proven to be negative: "Personal insults
@@ -22,13 +22,7 @@ Download
 
   https://addons.mozilla.org/en-US/firefox/addon/stripped-youtube/
 
-Screenshot
-----------
-
-See the file called sample.png in the repository.
-
-
 License
 -------
 
-Public Domain (Unlicense)
+Unlicense
