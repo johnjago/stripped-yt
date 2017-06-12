@@ -1,8 +1,10 @@
 In Progress
 -----------
 
+* Remove view counts on all elements, including related videos
+* Bug: The parts are sometimes not stripped away until the page is reloaded
+
 To Do
 -----
-* Bug: the parts are sometimes not stripped away until the page is reloaded
-* Remove view counts on all elements, including related videos
-* Begin testing with new YouTube design
+
+* Test with new YouTube design
