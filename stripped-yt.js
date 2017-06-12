@@ -1,16 +1,22 @@
-var item = document.getElementById("watch-discussion");
-var parent = document.getElementById("watch7-content");
-parent.removeChild(item);
+let ids = new Map([["watch7-content", "watch-discussion"], // comments
+                  ["watch8-sentiment-actions", "watch7-views-info"], // main view count
+                  ["watch8-action-buttons", "watch8-sentiment-actions"]]);  // ratings
 
-item = document.getElementById("watch7-views-info");
-parent = document.getElementById("watch8-sentiment-actions");
-parent.removeChild(item);
+for (let [key, value] of ids) {
+  var parent = document.getElementById(key);
+  var element = document.getElementById(value);
+  parent.removeChild(element);
+}
 
-item = document.getElementById("watch8-sentiment-actions");
-parent = document.getElementById("watch8-action-buttons");
-parent.removeChild(item);
+let classes = new Map([["yt-uix-button-subscription-container", "yt-subscriber-count"], // subscription count
+                      ["content-link spf-link yt-uix-sessionlink spf-link ", "stat view-count"]]); // related view counts
 
-item = document.querySelector(".exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count");
-parent = document.querySelector(".yt-uix-button-subscription-container");
-parent.removeChild(item);
-
+for (let [key, value] of classes) {
+  var parents = document.getElementsByClassName(key);
+  var elements = document.getElementsByClassName(value);
+  console.log(elements);
+  for (var i = 0; i < elements.length; i++) {
+    // console.log(i);
+    parents[i].removeChild(elements[i]);
+  }
+}
