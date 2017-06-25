@@ -1,9 +1,9 @@
 {
-  "description": "Watch videos without the comments, likes, or view counts.",
+  "description": "Watch videos without distractions.",
   "manifest_version": 2,
   "name": "Stripped YouTube",
-  "version": "1.1",
-  "homepage_url": "https://github.com/johnjago/stripped-yt",
+  "version": "1.2.0",
+  "homepage_url": "https://gitlab.com/johnjago/stripped-yt",
   "icons": {
     "48": "icon/youtube_ico.png"
   },
@@ -17,6 +17,7 @@
 
   "content_scripts": [
     {
+      "run_at": "document_idle",
       "matches": ["*://*.youtube.com/*"],
       "js": ["stripped-yt.js"]
     }

@@ -1,16 +1,34 @@
-var item = document.getElementById("watch-discussion");
-var parent = document.getElementById("watch7-content");
-parent.removeChild(item);
+// Remove watch page elements.
 
-item = document.getElementById("watch7-views-info");
-parent = document.getElementById("watch8-sentiment-actions");
-parent.removeChild(item);
+var ids = [
+  "watch7-views-info",
+  "watch8-sentiment-actions",
+  "watch-discussion",
+  "watch-related",
+];
 
-item = document.getElementById("watch8-sentiment-actions");
-parent = document.getElementById("watch8-action-buttons");
-parent.removeChild(item);
+for (let id of ids) {
+  var element = document.getElementById(id);
+  element.style.display = "none";
+}
 
-item = document.querySelector(".exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count");
-parent = document.querySelector(".yt-uix-button-subscription-container");
-parent.removeChild(item);
+// Fix empty space in sidebar.
 
+var sidebarFix = document.getElementById("watch7-sidebar-contents");
+sidebarFix.style.minHeight = "0";
+
+// Remove elements from channel page and search results.
+
+var classes = [
+  "yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count",
+  "stat view-count",
+  "yt-lockup-meta",
+  "yt-subscription-button-subscriber-count-branded-horizontal subscribed yt-uix-tooltip",
+];
+
+for (let item of classes) {
+  var elements = document.getElementsByClassName(item);
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].style.display = "none";
+  }
+}
