@@ -1,22 +1,34 @@
-let ids = new Map([["watch7-content", "watch-discussion"], // comments
-                  ["watch8-sentiment-actions", "watch7-views-info"], // main view count
-                  ["watch8-action-buttons", "watch8-sentiment-actions"]]);  // ratings
+// Remove watch page elements.
 
-for (let [key, value] of ids) {
-  var parent = document.getElementById(key);
-  var element = document.getElementById(value);
-  parent.removeChild(element);
+var ids = [
+  "watch7-views-info",
+  "watch8-sentiment-actions",
+  "watch-discussion",
+  "watch-related",
+];
+
+for (let id of ids) {
+  var element = document.getElementById(id);
+  element.style.display = "none";
 }
 
-let classes = new Map([["yt-uix-button-subscription-container", "yt-subscriber-count"], // subscription count
-                      ["content-link spf-link yt-uix-sessionlink spf-link ", "stat view-count"]]); // related view counts
+// Fix empty space in sidebar.
 
-for (let [key, value] of classes) {
-  var parents = document.getElementsByClassName(key);
-  var elements = document.getElementsByClassName(value);
-  console.log(elements);
-  for (var i = 0; i < elements.length; i++) {
-    // console.log(i);
-    parents[i].removeChild(elements[i]);
+var sidebarFix = document.getElementById("watch7-sidebar-contents");
+sidebarFix.style.minHeight = "0";
+
+// Remove elements from channel page and search results.
+
+var classes = [
+  "yt-subscription-button-subscriber-count-branded-horizontal yt-subscriber-count",
+  "stat view-count",
+  "yt-lockup-meta",
+  "yt-subscription-button-subscriber-count-branded-horizontal subscribed yt-uix-tooltip",
+];
+
+for (let item of classes) {
+  var elements = document.getElementsByClassName(item);
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].style.display = "none";
   }
 }
