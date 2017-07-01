@@ -1,10 +1,10 @@
 In Progress
 -----------
 
-* Create toolbar button and context menu entry to hide the elements.
-
 To Do
 -----
 
-* Bug: The parts are sometimes not stripped away until the page is reloaded.
-* Test with new YouTube design.
+* BUG: The elements are sometimes not hidden until the page is reloaded. This
+is most likely an issue with how YouTube loads its pages.
+
+* Test with the upcoming YouTube design.
