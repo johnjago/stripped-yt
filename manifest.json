@@ -2,8 +2,9 @@
   "description": "Watch videos without distractions.",
   "manifest_version": 2,
   "name": "Stripped YouTube",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "homepage_url": "https://gitlab.com/johnjago/stripped-yt",
+  "permissions": ["*://*.youtube.com/*", "activeTab"],
   "icons": {
     "48": "icon/youtube_ico.png"
   },
@@ -17,9 +18,18 @@
 
   "content_scripts": [
     {
-      "run_at": "document_idle",
       "matches": ["*://*.youtube.com/*"],
       "js": ["stripped-yt.js"]
     }
-  ]
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icon/youtube_ico.png"
+    }
+  }
 }
