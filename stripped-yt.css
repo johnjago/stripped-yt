@@ -1,0 +1,15 @@
+#comments,
+#related,
+#watch7-sidebar-contents,
+#watch-discussion {
+  display: none !important;
+}
+
+#player.style-scope.ytd-watch {
+  margin: 0 auto !important;
+}
+
+#main {
+  max-width: inherit !important;
+  width: inherit !important;
+}

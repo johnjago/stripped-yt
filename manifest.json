@@ -1,10 +1,10 @@
 {
-  "description": "Watch videos without distractions.",
+  "description": "No comments, no related videos, no distractions. Only video.",
   "manifest_version": 2,
   "name": "Stripped YouTube",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "homepage_url": "https://gitlab.com/johnjago/stripped-yt",
-  "permissions": ["*://*.youtube.com/*", "activeTab"],
+  "permissions": ["*://*.youtube.com/*"],
   "icons": {
     "48": "icon/youtube_ico.png"
   },
@@ -19,17 +19,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["stripped-yt.js"]
+      "css": ["stripped-yt.css"]
     }
-  ],
-
-  "background": {
-    "scripts": ["background.js"]
-  },
-
-  "browser_action": {
-    "default_icon": {
-      "48": "icon/youtube_ico.png"
-    }
-  }
+  ]
 }
