@@ -1,12 +1,13 @@
 {
-  "description": "No comments, no related videos, no distractions. Only video.",
+  "description": "No comments, no related videos, no distractions.",
   "manifest_version": 2,
   "name": "Stripped YouTube",
   "version": "2.0.0",
   "homepage_url": "https://gitlab.com/johnjago/stripped-yt",
   "permissions": ["*://*.youtube.com/*"],
   "icons": {
-    "48": "icon/youtube_ico.png"
+    "48": "icon/youtube-ico-48.png",
+    "96": "icon/youtube-ico-96.png"
   },
 
   "applications": {
