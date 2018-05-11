@@ -1,10 +1,19 @@
+Contributing to Stripped YouTube
+
+  Improvements are always welcome!
+  
+  If there is some distracting feature on YouTube that you feel should be
+  hidden, make an issue with the "suggestion" label.
+
 Issues
 
   Report bugs, defects, and other issues on the GitLab issue tracker.
 
 To contribute code to Stripped YouTube, follow these steps:
 
-  1. Fork and clone the repository.
-  2. Make your changes.
+  1. Create an issue with the appropriate label and describe what you are
+     working on.
+  2. Fork and clone the repository.
+  3. Make your changes.
   4. Push your changes.
-  3. Create a merge request.
+  5. Create a merge request.
