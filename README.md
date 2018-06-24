@@ -22,7 +22,7 @@ Report bugs or request features using the [issue tracker](https://gitlab.com/joh
 ## Contribute
 
 Is there a distracting "feature" on YouTube that you would like to remove or
-disable? Feel free to submit a merge request. See [CONTRIBUTING.md](https://gitlab.com/johnjago/stripped-yt/blob/master/CONTRIBUTING.md)
+disable? Feel free to submit a merge request. See [CONTRIBUTING](https://gitlab.com/johnjago/stripped-yt/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
