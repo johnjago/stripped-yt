@@ -1,9 +1,14 @@
+/* Hide sidebar contents and comments */
+
 #comments,
 #related,
 #watch7-sidebar-contents,
-#watch-discussion {
+#watch-discussion,
+#secondary {
   display: none !important;
 }
+
+/* Center video */
 
 #player.style-scope.ytd-watch {
   margin: 0 auto !important;
@@ -12,4 +17,8 @@
 #main {
   max-width: inherit !important;
   width: inherit !important;
+}
+
+#primary {
+  margin-left: 0;
 }
