@@ -11,7 +11,6 @@ To contribute to Stripped YouTube, follow these steps:
   4. Push your changes.
   5. Create a merge request.
 
-
 ## Issues
 
 If there is some distracting feature on YouTube that you feel should be hidden,

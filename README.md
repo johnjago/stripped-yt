@@ -1,15 +1,19 @@
 # Stripped YouTube
 
-YouTube's algorithms show you related videos that keep you hooked for hours.
-It's time to take back your time.
+No related videos, no comments, no autoplay, no annotations.
+
+YouTube is designed to keep you hooked for hours. It's time to take back your
+time.
 
 This Firefox extension hides comments and related videos on YouTube, allowing
-you to stay focused on the video you are watching. Without extra content on the
-side, the video is centered by default for a better viewing experience.
+you to stay focused on the video. Without extra content on the side, the video
+is centered by default for a better viewing experience.
 
 Why hide the comments? Studies have shown that for the same video on two
-different websites, "[personal insults were significantly more prevalent on the
-YouTube platform](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093609#s3)."
+different websites, "personal insults were significantly more prevalent on the
+YouTube platform." [[1]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093609#s3)
+
+Stripped YouTube also disables autoplay and annotations.
 
 ## Download
 
@@ -22,7 +26,7 @@ Report bugs or request features using the [issue tracker](https://gitlab.com/joh
 ## Contribute
 
 Is there a distracting "feature" on YouTube that you would like to remove or
-disable? Feel free to submit a merge request. See [CONTRIBUTING](https://gitlab.com/johnjago/stripped-yt/blob/master/CONTRIBUTING.md)
+disable? Feel free to submit a merge request. See [CONTRIBUTING.md](https://gitlab.com/johnjago/stripped-yt/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
