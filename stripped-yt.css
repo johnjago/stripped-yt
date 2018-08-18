@@ -8,6 +8,10 @@
   display: none !important;
 }
 
+ytd-two-column-browse-results-renderer[page-subtype="home"] {
+  display: none;
+}
+
 /* Center video */
 
 #player.style-scope.ytd-watch {
