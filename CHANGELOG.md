@@ -38,12 +38,12 @@
 ### Changed
 - Use removeChild method instead of outerHTML
 
-## [1.0.0] - 2016-07-22
+## 1.0.0 - 2016-07-22
 - Initial release
 
-[Unreleased]: https://gitlab.com/johnjago/stripped-yt/compare/v2.1.0...master
-[2.1.0]: https://gitlab.com/johnjago/stripped-yt/compare/v2.0.0...v2.1.0
-[2.0.0]: https://gitlab.com/johnjago/stripped-yt/compare/v1.3.0...v2.0.0
-[1.3.0]: https://gitlab.com/johnjago/stripped-yt/compare/v1.2.0...v1.3.0
-[1.2.0]: https://gitlab.com/johnjago/stripped-yt/compare/v1.1...v1.2.0
-[1.1.0]: https://gitlab.com/johnjago/stripped-yt/compare/v1.0...v1.1
+[Unreleased]: https://github.com/johnjago/stripped-yt/compare/v2.1.0...master
+[2.1.0]: https://github.com/johnjago/stripped-yt/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/johnjago/stripped-yt/compare/v1.3.0...v2.0.0
+[1.3.0]: https://github.com/johnjago/stripped-yt/compare/v1.2.0...v1.3.0
+[1.2.0]: https://github.com/johnjago/stripped-yt/compare/v1.1...v1.2.0
+[1.1.0]: https://github.com/johnjago/stripped-yt/compare/v1.0...v1.1
