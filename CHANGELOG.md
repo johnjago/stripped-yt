@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Added
+- Hide recommendations on the homepage
 - Hide "Trending" button in navigation menu
 - Change preferences through a settings menu
 
