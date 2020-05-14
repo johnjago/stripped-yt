@@ -1,6 +1,7 @@
 # Stripped YouTube
 
-No related videos, no comments, no autoplay, no annotations.
+No related videos, no comments, no autoplay, no annotations, no recommendations
+on the home page.
 
 YouTube is designed to keep you hooked for hours. It's time to take back your
 time.
@@ -13,7 +14,9 @@ Why hide the comments? Studies have shown that for the same video on two
 different websites, "personal insults were significantly more prevalent on the
 YouTube platform." [[1]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093609#s3)
 
-Stripped YouTube also disables autoplay and annotations.
+Stripped YouTube also disables autoplay and annotations, and it hides home page
+recommendations. To see the content that you actually want to see, use the
+Subscriptions page.
 
 ## Download
 
@@ -31,9 +34,4 @@ for details.
 
 ## License
 
-GNU GPLv3
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+MIT

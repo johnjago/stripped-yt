@@ -1,10 +1,8 @@
 # Changelog
 
-## [Unreleased]
+## 2.2.0 - 2020-05-13
 ### Added
 - Hide recommendations on the homepage
-- Hide "Trending" button in navigation menu
-- Change preferences through a settings menu
 
 ## [2.1.0] - 2018-08-12
 ### Added
@@ -41,7 +39,7 @@
 ## 1.0.0 - 2016-07-22
 - Initial release
 
-[Unreleased]: https://github.com/johnjago/stripped-yt/compare/v2.1.0...master
+[2.2.0]: https://github.com/johnjago/stripped-yt/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/johnjago/stripped-yt/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/johnjago/stripped-yt/compare/v1.3.0...v2.0.0
 [1.3.0]: https://github.com/johnjago/stripped-yt/compare/v1.2.0...v1.3.0

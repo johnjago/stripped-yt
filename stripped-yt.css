@@ -8,6 +8,8 @@
   display: none !important;
 }
 
+/* Hide home page recommendations */
+
 ytd-two-column-browse-results-renderer[page-subtype="home"] {
   display: none;
 }
