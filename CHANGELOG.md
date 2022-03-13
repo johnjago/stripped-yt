@@ -1,6 +1,12 @@
 # Changelog
 
-## 2.2.0 - 2020-05-13
+## [2.2.1] - 2022-03-12
+### Added
+- Hide end screen related videos
+### Fixed
+- Autoplay not turning off due to new layout
+
+## [2.2.0] - 2020-05-13
 ### Added
 - Hide recommendations on the homepage
 
@@ -39,6 +45,7 @@
 ## 1.0.0 - 2016-07-22
 - Initial release
 
+[2.2.1]: https://github.com/johnjago/stripped-yt/compare/v2.2.0...v2.2.1
 [2.2.0]: https://github.com/johnjago/stripped-yt/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/johnjago/stripped-yt/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/johnjago/stripped-yt/compare/v1.3.0...v2.0.0

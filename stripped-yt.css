@@ -1,10 +1,11 @@
-/* Hide sidebar contents and comments */
+/* Hide sidebar, comments, and end screen related videos */
 
 #comments,
 #related,
 #watch7-sidebar-contents,
 #watch-discussion,
-#secondary {
+#secondary,
+.videowall-endscreen {
   display: none !important;
 }
 

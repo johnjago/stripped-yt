@@ -4,7 +4,7 @@ No related videos, no comments, no autoplay, no annotations, no recommendations
 on the home page.
 
 If you want to choose what elements are hidden or want to hide more, check out
-*Remove YouTube Recommended Videos, Comments* which is available for both
+*Unhook: Remove YouTube Recommended Videos Comments* which is available for both
 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos/)
 and [Chrome](https://chrome.google.com/webstore/detail/remove-youtube-recommende/khncfooichmfjbepaaaebmommgaepoid).
 
@@ -17,9 +17,9 @@ This Firefox extension hides comments and related videos on YouTube, allowing
 you to stay focused on the video. Without extra content on the side, the video
 is centered by default for a better viewing experience.
 
-Why hide the comments? Studies have shown that for the same video on two
-different websites, "personal insults were significantly more prevalent on the
-YouTube platform." [[1]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093609#s3)
+It also turns off autoplay and annotations.
+
+There is no configuration. Simply install and enjoy distraction-free YouTube.
 
 ## Download
 
